@@ -1,0 +1,1 @@
+nodemon --ext js,ts --exec ts-node dist/app

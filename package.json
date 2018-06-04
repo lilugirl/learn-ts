@@ -1,0 +1,23 @@
+{
+  "name": "learn-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x ts-node --inspect app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
